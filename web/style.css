@@ -1,0 +1,45 @@
+body{
+    padding:0;
+    margin:0;
+    background:#FFFFF2 url('body_bg.gif') repeat-x 0 0; 
+    
+}
+ul{
+    margin:0; 
+    padding:0; 
+    list-style-type:none;
+}
+#header ul{
+    width:800px;
+    height:30px;
+    margin:0 auto;
+    padding:0;
+}
+#header ul li{
+    float:left;
+}
+#header ul li a{
+    display:block;
+    padding:0 24px 0 24px;
+    font:bold 12px/30px  "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color:#fff;
+    background-color:#2A2A2A;
+    text-decoration:none;
+    text-transform:uppercase;
+    float:left;
+}
+#header ul li a:hover{
+    background:#330A0A url('nav_hover.gif') repeat-x 0 0;
+    border-left:1px solid #D63030;
+    border-right:1px solid #D63030;
+    color:#ECE8C3; padding-left:24px; padding-right:24px; padding-top:0; padding-bottom:0
+}
+#header ul li.home{
+    float:left;
+    color:#ECE8C3;
+    text-decoration:none;
+    text-transform:uppercase;
+    background:#330A0A url('nav_hover.gif') repeat-x 0 0;
+    border-left:1px solid #D63030;
+    border-right:1px solid #D63030; font-style:normal; font-variant:normal; font-weight:bold; line-height:30px; font-size:12px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; padding-left:24px; padding-right:24px; padding-top:0; padding-bottom:0;
+}
